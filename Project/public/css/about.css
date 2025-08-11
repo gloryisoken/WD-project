@@ -1,0 +1,100 @@
+/* styles/about.css */
+
+/* Set the full background color */
+body {
+    background-color: #ffe0eb; /* light pink */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Banner */
+.about-banner {
+    background-color: #ff99cc; /* dark pink */
+    color: white;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+/* Gallery */
+.about-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: #fff0f5; /* soft background behind images */
+}
+
+.about-gallery img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ffb6c1;
+}
+
+/* Container */
+.about-container {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Boxes */
+.about-box {
+    background-color: #ffffff;
+    border: 2px solid #ffc0cb;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Headings */
+.about-box h2 {
+    color: #d1478c; /* dark pink text */
+}
+
+/* Text */
+.about-box p, .about-box ul {
+    color: #333;
+    font-size: 16px;
+}
+
+.about-box ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.about-box li {
+    padding: 5px 0;
+}
+
+/* Links */
+.about-box a {
+    color: #d1478c;
+    text-decoration: none;
+}
+
+.about-box a:hover {
+    text-decoration: underline;
+}
+
+/* Back button */
+.center-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.auth-button {
+    background-color: #ff99cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.auth-button:hover {
+    background-color: #e85ca4;
+}

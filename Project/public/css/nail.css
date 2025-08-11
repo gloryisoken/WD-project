@@ -1,0 +1,74 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFE4EB; /* light pink */
+  margin: 0;
+  padding: 40px;
+}
+
+.nail-profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  max-width: 900px;
+  margin: auto;
+}
+
+.nail-image {
+  flex: 1 1 50%;
+  max-width: 50%;
+}
+
+.nail-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.nail-details {
+  flex: 1 1 50%;
+  padding: 30px;
+  background-color: #fff0f5;
+  color: #8B005D; /* dark pink */
+}
+
+.nail-details h2 {
+  color: #8B005D;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+a.back-btn,
+a.book-btn {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a.back-btn {
+  background-color: white;
+  color: #8B005D;
+  border: 2px solid #8B005D;
+}
+
+a.book-btn {
+  background-color: #8B005D;
+  color: white;
+  border: none;
+}
+
+a.back-btn:hover {
+  background-color: #fdd0dd;
+}
+
+a.book-btn:hover {
+  background-color: #a3006b;
+}

@@ -1,0 +1,85 @@
+/* soft pink background */
+body {
+  background-color: #ffe6f0;
+  font-family: 'Poppins', sans-serif;
+  padding: 40px 0;
+}
+
+/* main form box */
+form {
+  background: #ffd6e8;
+  border: 2px solid #b30059;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* title inside the form */
+.container h2 {
+  color: #b30059;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* focus effect */
+input:focus {
+  border-color: #b30059;
+  outline: none;
+}
+
+/* labels */
+label {
+  color: #b30059;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* login/signup buttons */
+button,
+#SIGNINBUTTON,
+#SIGNUPBUTTON {
+  background: #b30059;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #a00050;
+}
+
+/* signup link */
+form a {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #b30059;
+  text-decoration: none;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+/* center whole page */
+.container {
+  text-align: center;
+  padding-top: 100px;
+}

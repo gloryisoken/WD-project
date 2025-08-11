@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFE4E1; /* soft pink background */
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 36px;
+    color: #C2185B; /* dark pink */
+    text-align: center;
+}
+
+/* Banner Section */
+.banner {
+    background-color: #FFB6C1; /* light pink */
+    padding: 10px 0;
+}
+
+/* Buttons */
+.auth-buttons {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.auth-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #FFB6C1; /* light pink */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.auth-button:hover {
+    background-color: #e89daf; /* darker pink hover */
+}
+
+/* Nails Section */
+.nails {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.nail {
+    text-align: center;
+}
+
+.nail img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: opacity 0.3s ease;
+}
+
+.nail img:hover {
+    opacity: 0.7;
+}
+
+.nail p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #C2185B; /* dark pink for visibility */
+}
+
+/* About Us Button */
+.about-button-wrapper {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.about-button {
+    padding: 10px 20px;
+    background-color: #FFB6C1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.about-button:hover {
+    background-color: #e89daf;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .nails {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .nails {
+        grid-template-columns: 1fr;
+    }
+}
