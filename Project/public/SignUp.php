@@ -2,7 +2,7 @@
 session_start();
 require_once('dbconnect.php');
 
-// Connect to DB
+//// Connect to DB
 $db = new Database();
 $pdo = $db->connect(); // now $pdo is available
 
@@ -63,3 +63,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </div>
 </body>
 </html>
+
