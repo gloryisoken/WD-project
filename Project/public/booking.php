@@ -15,6 +15,7 @@ require 'templates/header.php';
 </head>
 <body>
 
+    
 <!-- booking page content -->
 <div class="appointment-container">
     <h2>Book an Appointment</h2>
@@ -50,3 +51,4 @@ require 'templates/header.php';
 </div>
 
 <?php require 'templates/footer.php'; ?>
+
