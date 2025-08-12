@@ -8,7 +8,7 @@ include "templates/header.php";
     <h1>Welcome to Glory's Nail Salon</h1>
 </div>
 
-<!-- authenticator Buttons -->
+<!--- authenticator Buttons --->
 <div class="auth-buttons">
     <?php if (isset($_SESSION['name'])): ?>
         <span>Welcome, <?php echo htmlspecialchars($_SESSION['name']); ?>!</span>
@@ -61,3 +61,4 @@ include "templates/header.php";
 </div>
 
 <?php include "templates/footer.php"; ?>
+
