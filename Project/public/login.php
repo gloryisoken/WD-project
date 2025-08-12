@@ -2,7 +2,7 @@
 session_start();
 require_once('dbconnect.php');
 
-// Create the DB connection
+ // Create the DB connection
 $db = new Database();
 $pdo = $db->connect(); 
 
@@ -53,3 +53,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </div>
 </body>
 </html>
+
