@@ -2,7 +2,7 @@
 session_start();
 require_once('dbconnect.php');
 
-// makes sure the user is logged in
+//  makes sure the user is logged in
 if (!isset($_SESSION['email'])) {
     header("Location: login.php");
     exit();
@@ -68,3 +68,4 @@ $insertStmt->execute([
     </div>
 </body>
 </html>
+
